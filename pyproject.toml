@@ -1,0 +1,13 @@
+[project]
+name = "mcp-clingo"
+version = "0.1.0"
+description = "A Model Context Protocol (MCP) server for executing Answer Set Programming (ASP) logic using the Clingo Python API"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Luis Angel Rodriguez Reiners", email = "luis.rodriguezreiners@gmail.com" }]
+license = { text = "MIT" }
+keywords = ["asp", "answer-set-programming", "clingo", "mcp", "model-context-protocol"]
+dependencies = [
+    "clingo>=5.8.0",
+    "mcp[cli]>=1.9.4",
+]
